@@ -7,7 +7,7 @@ export default function Home() {
       <div className="min-h-screen bg-gradient-to-br from-[#006D77] to-[#3D5254] relative overflow-hidden">
         {/* Background */}
         <div className="absolute inset-0 opacity-10">
-          {[...Array(20)].map((_, i) => (
+          {[...Array(30)].map((_, i) => (
             <div
               key={i}
               className="absolute text-[#EDF6F9] animate-float"
@@ -48,19 +48,20 @@ export default function Home() {
               </h1>
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-[#EDF6F9] mb-4">
-              Aplicación para el{" "}
-              <span className="text-[#83C5BE]">refinamiento</span> y{" "}
-              <span className="text-[#83C5BE]">potenciación</span> de tu voz
+              Aplicación para la <span className="text-[#83C5BE]">ayuda</span> y{" "}
+              <span className="text-[#83C5BE]">prediagnostico</span> de tu voz
+              con tecnologia moderna de{" "}
+              <span className="text-[#83C5BE]">Inteligencia Artificial</span>
             </h2>
             <p className="text-xl text-[#EDF6F9] mb-6">
-              Mejora tus habilidades de comunicación con tecnología de
-              vanguardia en análisis de voz y retroalimentación en tiempo real.
+              Da el paso que te falta para mejorar y encontrar la ayuda que
+              necesitas.
             </p>
             <Link
-              href="/get-started"
+              href="https://www.feriadesoftware.cl/"
               className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
             >
-              Comienza Ahora
+              Feria de software 2024
             </Link>
           </div>
 
@@ -106,23 +107,15 @@ export default function Home() {
       {/* Video Section */}
       <section className="py-16 bg-[#EDF6F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-[#006D77] mb-8 text-center">
-            Descubre Refracted Speech en Acción
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#006D77] mb-4 text-center">
+            ¿ Qué es RefractedSpeech?
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-10">
               <p className="text-lg text-[#3D5254] mb-4 text-justify">
-                Mira cómo Refracted Speech puede transformar tu forma de hablar
-                y comunicarte. Nuestra tecnología de vanguardia analiza tu voz
-                en tiempo real, proporcionando retroalimentación instantánea y
-                sugerencias de mejora.
+                Discurso Acorde al Video.
               </p>
-              <p className="text-lg text-[#3D5254] text-justify">
-                Ya sea que estés preparando una presentación importante,
-                practicando para una entrevista o simplemente buscando mejorar
-                tu dicción, Refracted Speech es tu compañero ideal para el
-                desarrollo de habilidades de comunicación.
-              </p>
+              <p className="text-lg text-[#3D5254] text-justify">Parrafo</p>
             </div>
             <div className="md:w-3/4 lg:w-2/3 mt-10 md:mt-10">
               <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
@@ -142,49 +135,50 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-[#006D77] to-[#3D5254]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#EDF6F9] mb-8 text-center">
-            Mejorando la Comunicación a Cualquier Edad
+            ¿ A quien ayudará ?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-[#006D77] mb-2">65+</div>
-              <p className="text-[#3D5254]">
-                Edad promedio de nuestros usuarios mayores
-              </p>
+              <div className="text-4xl font-bold text-[#006D77] mb-2">70%</div>
+              <Link
+                href="https://www.dovepress.com/parkinsons-disease-associated-dysarthria-prevalence-impact-and-managem-peer-reviewed-fulltext-article-JPRLS"
+                className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
+              >
+                De personas con Parkinson desarrollan disartria
+              </Link>
             </div>
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-[#006D77] mb-2">78%</div>
-              <p className="text-[#3D5254]">
-                Reportan mejora en la claridad del habla
-              </p>
+              <div className="text-4xl font-bold text-[#006D77] mb-2">
+                30.000+
+              </div>
+              <Link
+                href="https://www.latercera.com/que-pasa/noticia/por-que-en-chile-se-habla-mal/4DE374IKEJG3XP4XR33LJRJE2I/"
+                className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
+              >
+                De personas tienen un grado de disartria en Chile
+              </Link>
             </div>
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
-              <div className="text-4xl font-bold text-[#006D77] mb-2">3.5x</div>
-              <p className="text-[#3D5254]">
-                Aumento en la confianza al hablar en público
-              </p>
+              <div className="text-4xl font-bold text-[#006D77] mb-2">50%</div>
+              <Link
+                href="https://www.stroke.org.uk/research/speech-after-stroke-recovery-study#:~:text=Around%2050%25%20of%20stroke%20survivors,clear%2C%20slurred%20or%20sounds%20different."
+                className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
+              >
+                De personas pueden sufrir disartria despues de un derrame
+                cerebral
+              </Link>
             </div>
           </div>
           <div className="mt-12 text-center">
             <h3 className="text-2xl font-semibold text-[#EDF6F9] mb-4">
-              Beneficios para Adultos Mayores
+              Los estudios indican mejoras significativas en el ejercicio
+              constante
             </h3>
             <p className="text-lg text-[#EDF6F9] mb-6">
-              Refracted Speech no solo ayuda a los jóvenes profesionales.
-              Nuestros usuarios mayores de 65 años han experimentado mejoras
-              significativas en su calidad de vida, incluyendo:
+              Refracted Speech te ayuda a mantenerte activo y mejorar tu calidad
+              de vida para <span className="text-[#83C5BE]"> recuperar </span>{" "}
+              tu conexion con tus seres queridos.
             </p>
-            <ul className="text-[#EDF6F9] text-lg list-disc list-inside mb-8">
-              <li>Mayor claridad en la comunicación con familiares y amigos</li>
-              <li>Aumento de la confianza en situaciones sociales</li>
-              <li>Mejora en la articulación y pronunciación</li>
-              <li>Reducción de la frustración en conversaciones diarias</li>
-            </ul>
-            <Link
-              href="/testimonios"
-              className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
-            >
-              Ver Testimonios
-            </Link>
           </div>
         </div>
       </section>

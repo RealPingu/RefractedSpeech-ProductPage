@@ -35,13 +35,13 @@ export default function Header() {
               href="/about"
               className="text-[#EDF6F9] text-lg hover:text-[#20344b] transition-colors"
             >
-              About
+              ¿Quiénes Somos?
             </Link>
             <Link
               href="/contact"
               className="text-[#EDF6F9] text-lg hover:text-[#20344b] transition-colors"
             >
-              Contact
+              Contáctanos
             </Link>
           </nav>
           <div className="hidden md:block">

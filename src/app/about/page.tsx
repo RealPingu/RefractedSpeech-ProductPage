@@ -18,7 +18,7 @@ export default function About() {
             SinestesiaML
           </h1>
           <p className="text-xl text-[#3D5254]">
-            Innovando en el campo de la comunicación asistida por IA
+            Innovando en el campo de la salud y comunicacion usando IA
           </p>
         </div>
       </section>
@@ -65,33 +65,33 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Ana Rodríguez",
-                role: "CEO & Fundadora",
+                name: "Inti Vidal",
+                role: "Scrum Master",
                 image: "/placeholder.svg?height=200&width=200",
               },
               {
-                name: "Carlos Méndez",
-                role: "CTO",
+                name: "Simón Appel",
+                role: "Product Owner",
                 image: "/placeholder.svg?height=200&width=200",
               },
               {
-                name: "Laura Sánchez",
-                role: "Jefa de Diseño UX",
+                name: "Joaquín García ",
+                role: "ML Specialist",
                 image: "/placeholder.svg?height=200&width=200",
               },
               {
-                name: "Miguel Torres",
-                role: "Ingeniero de IA Senior",
+                name: "Matías Elgueta ",
+                role: "QA Analyst",
                 image: "/placeholder.svg?height=200&width=200",
               },
               {
-                name: "Elena Gómez",
-                role: "Científica de Datos",
+                name: "Alan Yanine ",
+                role: "Marketing Manager",
                 image: "/placeholder.svg?height=200&width=200",
               },
               {
-                name: "Javier López",
-                role: "Gerente de Producto",
+                name: "Diego Soto",
+                role: "Tech Lead",
                 image: "/placeholder.svg?height=200&width=200",
               },
             ].map((member, index) => (
