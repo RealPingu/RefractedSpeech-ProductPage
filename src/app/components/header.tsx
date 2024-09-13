@@ -11,18 +11,15 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#006D77] via-[#262E2F] via-[#293637] via-[#3D5254] via-[#7C8889] to-[#EDF6F9] p-4 shadow-md">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 w-[100px] h-[100px] md:w-[250px] md:h-[150px]">
             <Link href="/">
               <Image
-                src="/refracted-logo.png"
+                src="/logos/logo-header.png"
                 alt="refracted speech logo"
-                width={100}
-                height={25}
+                width={500}
+                height={300}
               />
             </Link>
-            <span className="text-xl md:text-2xl font-bold text-[#EDF6F9] whitespace-nowrap">
-              Refracted Speech
-            </span>
           </div>
           <nav className="hidden md:flex flex-grow justify-center space-x-8">
             <Link
@@ -45,12 +42,12 @@ export default function Header() {
             </Link>
           </nav>
           <div className="hidden md:block">
-            <Link
-              href="/download"
-              className="bg-[#006D77] text-[#EDF6F9] px-4 py-2 rounded-md text-sm font-medium hover:bg-[#20344b] transition-colors"
-            >
-              Descarga Ahora
-            </Link>
+            <Image
+              src="/refracted-images/refracted-cat.png"
+              alt="refracted mascot"
+              width={125}
+              height={50}
+            />
           </div>
           <button
             className="md:hidden text-[#006D77]"
@@ -80,12 +77,6 @@ export default function Header() {
                 className="text-[#EDF6F9] text-lg hover:text-[#20344b] transition-colors"
               >
                 Contact
-              </Link>
-              <Link
-                href="/download"
-                className="bg-[#006D77] text-[#EDF6F9] px-4 py-2 rounded-md text-sm font-medium hover:bg-[#20344b] transition-colors inline-block"
-              >
-                Descarga Ahora
               </Link>
             </nav>
           </div>

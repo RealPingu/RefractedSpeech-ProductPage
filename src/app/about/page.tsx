@@ -8,17 +8,17 @@ export default function About() {
       <section className="py-20 bg-[#EDF6F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Image
-            src="/placeholder.svg?height=200&width=200"
+            src="/logos/logo-sinestesiaml.png"
             alt="SinestesiaML Logo"
-            width={200}
-            height={200}
-            className="mx-auto mb-8"
+            width={250}
+            height={500}
+            className="mx-auto"
           />
           <h1 className="text-4xl font-bold text-[#006D77] mb-4">
             SinestesiaML
           </h1>
           <p className="text-xl text-[#3D5254]">
-            Innovando en el campo de la salud y comunicacion usando IA
+            Innovando en el campo de la salud y la comunicación usando IA.
           </p>
         </div>
       </section>
@@ -67,32 +67,38 @@ export default function About() {
               {
                 name: "Inti Vidal",
                 role: "Scrum Master",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-inti.jpg?height=250&width=200",
               },
               {
                 name: "Simón Appel",
                 role: "Product Owner",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-simon.jpg?height=250&width=200",
               },
               {
                 name: "Joaquín García ",
                 role: "ML Specialist",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-dhost.jpg?height=250&width=200",
               },
               {
                 name: "Matías Elgueta ",
                 role: "QA Analyst",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-utam.jpg?height=250&width=200",
               },
               {
                 name: "Alan Yanine ",
                 role: "Marketing Manager",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-kuki.jpg?height=250&width=200",
               },
               {
                 name: "Diego Soto",
                 role: "Tech Lead",
-                image: "/placeholder.svg?height=200&width=200",
+                image:
+                  "/refracted-images/refracted-diego.jpg?height=250&width=200",
               },
             ].map((member, index) => (
               <div
@@ -114,6 +120,10 @@ export default function About() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="font-light text-[#006D77] mb-8 mt-8 text-right">
+            Los delantales son solo para uso temático del proyecto. SinestesiaML
+            no representa un equipo médico de ninguna índole.
           </div>
         </div>
       </section>

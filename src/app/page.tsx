@@ -49,8 +49,8 @@ export default function Home() {
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-[#EDF6F9] mb-4">
               Aplicación para la <span className="text-[#83C5BE]">ayuda</span> y{" "}
-              <span className="text-[#83C5BE]">prediagnostico</span> de tu voz
-              con tecnologia moderna de{" "}
+              <span className="text-[#83C5BE]">prediagnóstico</span> de tu voz
+              con tecnología moderna de{" "}
               <span className="text-[#83C5BE]">Inteligencia Artificial</span>
             </h2>
             <p className="text-xl text-[#EDF6F9] mb-6">
@@ -135,7 +135,7 @@ export default function Home() {
       <section className="py-16 bg-gradient-to-br from-[#006D77] to-[#3D5254]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#EDF6F9] mb-8 text-center">
-            ¿ A quien ayudará ?
+            ¿A quién ayudará?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
@@ -144,7 +144,7 @@ export default function Home() {
                 href="https://www.dovepress.com/parkinsons-disease-associated-dysarthria-prevalence-impact-and-managem-peer-reviewed-fulltext-article-JPRLS"
                 className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
               >
-                De personas con Parkinson desarrollan disartria
+                De las personas con Parkinson desarrollan disartria.
               </Link>
             </div>
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
@@ -155,7 +155,7 @@ export default function Home() {
                 href="https://www.latercera.com/que-pasa/noticia/por-que-en-chile-se-habla-mal/4DE374IKEJG3XP4XR33LJRJE2I/"
                 className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
               >
-                De personas tienen un grado de disartria en Chile
+                Personas tienen algún grado de disartria en Chile.
               </Link>
             </div>
             <div className="bg-[#EDF6F9] rounded-lg p-6 text-center">
@@ -164,20 +164,20 @@ export default function Home() {
                 href="https://www.stroke.org.uk/research/speech-after-stroke-recovery-study#:~:text=Around%2050%25%20of%20stroke%20survivors,clear%2C%20slurred%20or%20sounds%20different."
                 className="bg-[#EDF6F9] text-[#006D77] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#83C5BE] transition-colors inline-block"
               >
-                De personas pueden sufrir disartria despues de un derrame
-                cerebral
+                De las personas pueden sufrir disartria después de un derrame
+                cerebral.
               </Link>
             </div>
           </div>
           <div className="mt-12 text-center">
             <h3 className="text-2xl font-semibold text-[#EDF6F9] mb-4">
-              Los estudios indican mejoras significativas en el ejercicio
-              constante
+              Los estudios indican mejoras significativas con el ejercicio
+              constante.
             </h3>
             <p className="text-lg text-[#EDF6F9] mb-6">
               Refracted Speech te ayuda a mantenerte activo y mejorar tu calidad
               de vida para <span className="text-[#83C5BE]"> recuperar </span>{" "}
-              tu conexion con tus seres queridos.
+              tu conexión con tus seres queridos.
             </p>
           </div>
         </div>

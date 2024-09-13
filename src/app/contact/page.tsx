@@ -71,7 +71,7 @@ export default function Contact() {
       <section className="py-20 bg-[#EDF6F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-[#006D77] mb-8 text-center">
-            Encuentranos en la Feria de Software de la USM el 15 de Noviembre!
+            ¡Encuéntranos en la Feria de Software de la USM el 15 de noviembre!
           </h2>
           <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-lg">
             <iframe

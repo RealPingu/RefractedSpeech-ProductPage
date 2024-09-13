@@ -115,16 +115,25 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          {/* Logo USM */}
+          {/* Logo USM - Feria */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">Somos parte</h2>
-            <Image
-              src="/refracted-logo.png"
-              alt="Refracted Speech logo"
-              width={50}
-              height={50}
-              className="mr-2"
-            />
+            <h2 className="text-2xl font-bold mb-4 text-center">Somos parte</h2>
+            <div className="flex space-x-4 items-center">
+              <Image
+                src="/logos/logo-feria.svg"
+                alt="logo-feria"
+                width={150}
+                height={200}
+                className="mr-2"
+              />
+              <Image
+                src="/logos/logo-usm.svg"
+                alt="logo-usm"
+                width={150}
+                height={200}
+                className="mr-2"
+              />
+            </div>
           </div>
         </div>
 
@@ -132,10 +141,10 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-[#7C8889] flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Image
-              src="/refracted-logo.png"
+              src="/logos/logo-header.png"
               alt="Refracted Speech logo"
-              width={50}
-              height={50}
+              width={100}
+              height={100}
               className="mr-2"
             />
             <span className="text-2xl font-bold">Refracted Speech</span>
