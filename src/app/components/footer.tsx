@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
@@ -119,14 +118,14 @@ export default function Footer() {
           <div>
             <h2 className="text-2xl font-bold mb-4 text-center">Somos parte</h2>
             <div className="flex space-x-4 items-center">
-              <Image
+              <img
                 src="/logos/logo-feria.svg"
                 alt="logo-feria"
                 width={150}
                 height={200}
                 className="mr-2"
               />
-              <Image
+              <img
                 src="/logos/logo-usm.svg"
                 alt="logo-usm"
                 width={150}
@@ -140,7 +139,7 @@ export default function Footer() {
         {/* Bottom section */}
         <div className="mt-12 pt-8 border-t border-[#7C8889] flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Image
+            <img
               src="/logos/logo-header.png"
               alt="Refracted Speech logo"
               width={100}

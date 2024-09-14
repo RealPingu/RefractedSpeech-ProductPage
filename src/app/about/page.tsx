@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
@@ -7,7 +6,7 @@ export default function About() {
       {/* Logo Frame */}
       <section className="py-20 bg-[#EDF6F9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Image
+          <img
             src="/logos/logo-sinestesiaml.png"
             alt="SinestesiaML Logo"
             width={250}
@@ -105,7 +104,7 @@ export default function About() {
                 key={index}
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <Image
+                <img
                   src={member.image}
                   alt={member.name}
                   width={400}

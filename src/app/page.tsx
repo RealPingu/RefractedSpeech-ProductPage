@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -65,7 +64,6 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Right side image */}
           <div className="lg:w-1/2 flex justify-center lg:justify-end">
             <div className="relative w-64 h-[500px] bg-[#EDF6F9] rounded-3xl overflow-hidden shadow-2xl transform rotate-3">
               <div className="absolute top-0 left-0 right-0 h-6 bg-[#006D77] flex items-center justify-end pr-2">

@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -13,7 +12,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-4 w-[100px] h-[100px] md:w-[250px] md:h-[150px]">
             <Link href="/">
-              <Image
+              <img
                 src="/logos/logo-header.png"
                 alt="refracted speech logo"
                 width={500}
@@ -42,7 +41,7 @@ export default function Header() {
             </Link>
           </nav>
           <div className="hidden md:block">
-            <Image
+            <img
               src="/refracted-images/refracted-cat.png"
               alt="refracted mascot"
               width={125}
