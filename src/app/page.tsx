@@ -70,7 +70,7 @@ export default function Home() {
                 <div className="w-2 h-2 rounded-full bg-[#EDF6F9]"></div>
               </div>
               <div className="p-4 h-full flex flex-col justify-between">
-                <div className="text-[#006D77] text-lg font-semibold">
+                <div className="text-[#006D77] text-lg font-semibold ">
                   Refracted Speech
                 </div>
                 <div className="space-y-4">
@@ -78,7 +78,7 @@ export default function Home() {
                   <div className="h-2 bg-[#83C5BE] rounded w-1/2"></div>
                   <div className="h-2 bg-[#83C5BE] rounded w-5/6"></div>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex Contactjustify-center">
                   <div className="w-16 h-16 bg-[#006D77] rounded-full flex items-center justify-center">
                     <svg
                       className="w-8 h-8 text-[#EDF6F9]"
@@ -111,14 +111,21 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-10">
               <p className="text-lg text-[#3D5254] mb-4 text-justify">
-                Discurso Acorde al Video.
+                Con Refracted Speech, las personas que viven con disartria
+                pueden acceder a un prediagnóstico preciso y ejercicios
+                personalizados para mejorar su habla.
               </p>
-              <p className="text-lg text-[#3D5254] text-justify">Parrafo</p>
+              <p className="text-lg text-[#3D5254] text-justify">
+                Nuestra aplicación, respaldada por inteligencia artificial, está
+                diseñada para hacer que el proceso de rehabilitación sea
+                accesible y efectivo, ayudando a los usuarios a recuperar su
+                capacidad de comunicarse y conectarse con los demás.
+              </p>
             </div>
             <div className="md:w-3/4 lg:w-2/3 mt-10 md:mt-10">
               <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
                 <iframe
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  src="https://www.youtube.com/embed/d0_a5gKIvMw"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="w-full h-[350px]"

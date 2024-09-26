@@ -32,7 +32,10 @@ export default function Footer() {
               >
                 <FaLinkedin className="h-6 w-6"></FaLinkedin>
               </Link>
-              <Link href="#" aria-label="Youtube">
+              <Link
+                href="https://www.youtube.com/@RefractedSpeech"
+                aria-label="Youtube"
+              >
                 <FaYoutube className="h-6 w-6"></FaYoutube>
               </Link>
             </div>
@@ -100,15 +103,18 @@ export default function Footer() {
                     href="https://www.linkedin.com/in/refracted-speech/"
                     aria-label="Linkedin"
                   >
-                    Linkedin
+                    @linkedin
                   </Link>
                 </div>
               </li>
               <li>
                 <div className="flex space-x-4">
                   <FaYoutube className="h-6 w-6"></FaYoutube>
-                  <Link href="#" aria-label="Youtube">
-                    Youtube
+                  <Link
+                    href="https://www.youtube.com/@RefractedSpeech"
+                    aria-label="Youtube"
+                  >
+                    @youtube
                   </Link>
                 </div>
               </li>
@@ -118,20 +124,24 @@ export default function Footer() {
           <div>
             <h2 className="text-2xl font-bold mb-4 text-center">Somos parte</h2>
             <div className="flex space-x-4 items-center">
-              <img
-                src="/logos/logo-feria.svg"
-                alt="logo-feria"
-                width={150}
-                height={200}
-                className="mr-2"
-              />
-              <img
-                src="/logos/logo-usm.svg"
-                alt="logo-usm"
-                width={150}
-                height={200}
-                className="mr-2"
-              />
+              <Link href="https://www.feriadesoftware.cl/">
+                <img
+                  src="/logos/logo-feria.svg"
+                  alt="logo-feria"
+                  width={150}
+                  height={200}
+                  className="mr-2"
+                />
+              </Link>
+              <Link href="https://usm.cl/">
+                <img
+                  src="/logos/logo-usm.svg"
+                  alt="logo-usm"
+                  width={150}
+                  height={200}
+                  className="mr-2"
+                />
+              </Link>
             </div>
           </div>
         </div>
